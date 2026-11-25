@@ -1,0 +1,114 @@
+[
+  {
+    "alert_num": "1",
+    "your_label": "TP",
+    "agent_label": "FP",
+    "match": false,
+    "agent_evidence": "No matching logs found in the specified timeframe"
+  },
+  {
+    "alert_num": "2",
+    "your_label": "TP",
+    "agent_label": "FP",
+    "match": false,
+    "agent_evidence": "No matching logs found for the given keyword"
+  },
+  {
+    "alert_num": "3",
+    "your_label": "TP",
+    "agent_label": "FP",
+    "match": false,
+    "agent_evidence": "No matching logs found in the specified timeframe"
+  },
+  {
+    "alert_num": "4",
+    "your_label": "TP",
+    "agent_label": "FP",
+    "match": false,
+    "agent_evidence": "No matching logs found in the specified timeframe"
+  },
+  {
+    "alert_num": "5",
+    "your_label": "TP",
+    "agent_label": "FP",
+    "match": false,
+    "agent_evidence": "No matching logs found in the specified timeframe"
+  },
+  {
+    "alert_num": "6",
+    "your_label": "FP",
+    "agent_label": "FP",
+    "match": true,
+    "agent_evidence": "No suspicious activity found in the logs"
+  },
+  {
+    "alert_num": "7",
+    "your_label": "FP",
+    "agent_label": "FP",
+    "match": true,
+    "agent_evidence": "No suspicious activity found in the logs"
+  },
+  {
+    "alert_num": "8",
+    "your_label": "FP",
+    "agent_label": "FP",
+    "match": true,
+    "agent_evidence": "No suspicious activity found in the logs"
+  },
+  {
+    "alert_num": "9",
+    "your_label": "FP",
+    "agent_label": "FP",
+    "match": true,
+    "agent_evidence": "Multiple log entries for a new dpkg installation, but no clear indication of malicious activity"
+  },
+  {
+    "alert_num": "10",
+    "your_label": "FP",
+    "agent_label": "FP",
+    "match": true,
+    "agent_evidence": "Multiple log entries for the same package installation, but no clear indication of malicious activity"
+  },
+  {
+    "alert_num": "11",
+    "your_label": "FP",
+    "agent_label": "FP",
+    "match": true,
+    "agent_evidence": "Multiple log entries for the same package installation, but with different package names"
+  },
+  {
+    "alert_num": "12",
+    "your_label": "FP",
+    "agent_label": "FP",
+    "match": true,
+    "agent_evidence": "The alert is related to a legitimate login session, and the keyword 'sudo' is present in the log message. Further investigation is not required."
+  },
+  {
+    "alert_num": "13",
+    "your_label": "FP",
+    "agent_label": "FP",
+    "match": true,
+    "agent_evidence": "No suspicious login activity found in the provided logs"
+  },
+  {
+    "alert_num": "14",
+    "your_label": "FP",
+    "agent_label": "FP",
+    "match": true,
+    "agent_evidence": "Multiple login sessions opened by vboxuser, but all are legitimate and expected"
+  },
+  {
+    "alert_num": "15",
+    "your_label": "TP",
+    "agent_label": "FP",
+    "match": false,
+    "agent_evidence": "The alert is a normal system log entry and not an indication of malicious activity."
+  },
+  {
+    "alert_num": "16",
+    "your_label": "TP",
+    "agent_label": "FP",
+    "match": false,
+    "agent_evidence": "The alert is from a trusted source and the keyword is common in legitimate system logs."
+  }
+]
